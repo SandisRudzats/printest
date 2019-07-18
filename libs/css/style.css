@@ -1,0 +1,62 @@
+body {
+    background: url(../../images/background.jpg);
+}
+h1{
+
+    background: rgb(241, 187, 126);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    display:block;
+	text-align: center;
+}
+div {
+    font-size: 20px;
+}
+div.container{
+    overflow: auto;
+    background:rgb(238, 203, 164);
+    border-radius: 15px;
+    border: 10px solid wheat;
+    opacity:0.88;
+}
+
+.textArea{
+    background:rgb(235, 232, 232);
+}
+td{
+    background:rgb(241, 187, 126);
+    border:5px  ;
+    color:rgb(136, 78, 11);
+    border-radius: 20px;
+    
+}
+table {
+    border-radius: 20px;
+    background: rgb(241, 187, 126);
+    
+}
+a.btn.btn-default.pull-right,
+a.btn.btn-info.left-margin,
+a.btn.btn-danger.delete-object,
+button.btn.btn-primary,
+input.btn.btn-primary{
+    background: rgb(124, 8, 8);
+    color:whitesmoke;
+    border:red;
+}
+div.alert.alert-success {
+    background: rgb(133, 21, 21);
+    color:whitesmoke;
+    border-radius:12px;
+
+}   
+.form-control {
+    border-radius:12px;
+}
+#fluency{
+    height: 25px;
+    transform: scale(3);
+    padding: 10px;
+    margin:10px;
+}
